@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Favorites</title>
+    <style>
+      th,
+      td {
+        border: 1px solid rgb(160 160 160);
+        padding: 8px 10px;
+      }
+
+      th[scope="col"] {
+        background-color: #505050;
+        color: #fff;
+      }
+
+      th[scope="row"] {
+        background-color: #d6ecd4;
+      }
+
+      td {
+        text-align: center;
+      }
+
+      tr:nth-of-type(even) {
+        background-color: #eee;
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 2px solid rgb(140 140 140);
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Favorite Animal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Wade</th>
+          <td>Townley</td>
+          <td>Falcon</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
